@@ -1,0 +1,414 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/passport/passport",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+		,{
+		    "path" : "pages/register/register",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "用户注册",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/pwd-find/pwd-find",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "找回密码",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/result/register-success",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "注册成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/external/cert",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "实名认证",
+		        "enablePullDownRefresh": false
+		    }
+		}
+		,{
+		    "path" : "pages/result/find-pwd-success",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "重置密码成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/result/mobile-change-success",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "更换手机号成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/result/password-set-success",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "设置密码成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/result/password-change-success",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "修改密码成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/result/auth-create-success",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新增授权成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/express/express",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+		,{
+		    "path" : "pages/user-info/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人信息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/user-info/cert-info",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "实名认证",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/user-info/user-info",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人基本信息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/user-info/express-addr",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "收货地址",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/user-info/express-addr-create",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新增地址",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/acct-safty/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "账户安全",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/acct-safty/mobile",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "更换手机号",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/acct-safty/mobile-new",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "更换手机号",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/acct-safty/password",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "修改密码",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/acct-safty/password-new",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "设置密码",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/faq/faq",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/medical-info/medical-info",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的住院信息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/medical-info/medical-info-create-or-update",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增住院信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/auth-manage/auth-manage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "授权管理",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/auth-manage/auth-create",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新增授权",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/auth-manage/auth-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "授权详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/apply/apply-print",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择患者",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/apply/patient-info",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "填写病案信息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/apply/print-info",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "添加复印信息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/apply/medical-info-use",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "选择病案用途",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/apply/cert-upload",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "证件信息上传",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/backlog/backlog",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的待办",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/apply/apply-detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "申请详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/apply/apply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的申请",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/user-cert/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "实名认证",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/user-cert/user-cert",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "实名认证",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/result/user-cert-suceess",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "实名认证成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/result/user-cert-fail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "实名认证失败",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "调试",
+				"path": "pages/result/user-cert-suceess"
+			}
+		]
+	},
+	"tabBar": {
+	    "list": [
+		{
+			"pagePath": "pages/index/index"
+		},
+		{
+	        "pagePath": "pages/faq/faq"
+	    },
+		{
+	        "pagePath": "pages/express/express"
+	    },
+		{
+	        "pagePath": "pages/user/user"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF"
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}

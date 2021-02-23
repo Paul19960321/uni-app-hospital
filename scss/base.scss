@@ -1,0 +1,96 @@
+.p-48 {
+	padding: 48rpx;
+}
+// 文本
+.default-txt {
+	color: $uni-text-color;
+}
+
+.primary-txt {
+	color: $uni-color-primary;
+}
+
+.grey-txt {
+	color: $uni-text-color-grey;
+}
+
+.info-txt {
+	color: $uni-text-color-placeholder;
+}
+
+.placeholder-txt {
+	color: $u-light-color;
+}
+
+.error-txt {
+	color: $uni-color-error;
+}
+
+.warning-txt {
+	color: $uni-color-warning!important;
+}
+
+// 图标
+.big-icon {
+	height: 288rpx;
+	width: 288rpx;
+}
+
+.default-icon {
+	height: 192rpx;
+	width: 192rpx;
+}
+
+.small-icon {
+	height: 48rpx;
+	width: 48rpx;
+}
+
+.mini-icon {
+	height: 32rpx;
+	width: 32rpx;
+}
+
+.btn-icon {
+	vertical-align: middle;
+	margin-right: 16rpx;
+}
+
+// 按钮
+.default-btn {
+	background-color: $uni-color-primary;
+	border-color: $uni-color-primary;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #FFFFFF;
+	font-size: 32rpx;
+	&.circle {
+		border-radius: 40rpx;
+	}
+	&.plain {
+		background-color: #FFFFFF;
+		border: 1px solid rgba(0, 0, 0, 0.06);
+	}
+}
+
+.default-hover {
+	background-color: $uni-color-sub;
+	border-color: $uni-color-sub;
+}
+
+.space-btw {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.u-form-item .u-form-item--left__content--required {
+	left: unset!important;
+	right: -4rpx;
+}
+
+.u-form-item .u-form-item--left__content {
+	flex-grow: unset!important;
+	white-space: nowrap;
+}
